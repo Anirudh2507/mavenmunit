@@ -1,0 +1,7 @@
+SUCCESS - Test maven_test-test-suite-maven_testSub_FlowTest finished Successfully.
+SUCCESS - Test maven_test-test-suiteTest finished Successfully.
+SUCCESS - Test maven_test-test-suiteTest2 finished Successfully.
+
+=============================================================================
+Tests run: 3 - Failures: 0 - Errors: 0 - Skipped: 0 - Time elapsed: 1.420 sec
+=============================================================================
