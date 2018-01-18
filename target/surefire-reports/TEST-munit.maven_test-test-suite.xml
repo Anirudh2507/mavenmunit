@@ -1,4 +1,4 @@
-<testsuite name="maven_test-test-suite" time="1.42" failures="0" errors="0" skipped="0" tests="3">
+<testsuite name="maven_test-test-suite" time="1.437" failures="0" errors="0" skipped="0" tests="3">
   <properties>
     <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -63,7 +63,7 @@
     <property key="mule.testingMode" value="true"/>
     <property key="mule.working.dir" value="D:\MunitWorkspace\maven_test\target\.mule"/>
   </properties>
-  <testcase time="0.219" name="maven_test-test-suite-maven_testSub_FlowTest" classname="maven_test-test-suite"/>
+  <testcase time="0.265" name="maven_test-test-suite-maven_testSub_FlowTest" classname="maven_test-test-suite"/>
   <testcase time="0.047" name="maven_test-test-suiteTest" classname="maven_test-test-suite"/>
-  <testcase time="0.019" name="maven_test-test-suiteTest2" classname="maven_test-test-suite"/>
+  <testcase time="0.016" name="maven_test-test-suiteTest2" classname="maven_test-test-suite"/>
 </testsuite>
