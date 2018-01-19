@@ -13,6 +13,6 @@ http://www.mulesoft.org/schema/mule/s3 http://www.mulesoft.org/schema/mule/s3/cu
         <flow-ref name="maven_testSub_Flow" doc:name="maven_testSub_Flow"/>
     </flow>
     <sub-flow name="maven_testSub_Flow">
-        <set-payload value="#[Integer.parseInt(message.inboundProperties.'http.query.params'.a) &gt; 0 ? 'great' : 'not great']" doc:name="Set Payload"/>
+        <set-payload value="#[Integer.parseInt(message.inboundProperties.'http.query.params'.a) &gt; 0 ? 'gret' : 'not great']" doc:name="Set Payload"/>
     </sub-flow>
 </mule>
