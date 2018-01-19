@@ -24,16 +24,24 @@
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
 				<version>${mule.tools.version}</version>
-				<extensions>true</extensions>
 				<configuration>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
-				<inclusions>
-                        <inclusion>
-                            <groupId>org.mule.modules</groupId>
-                            <artifactId>mule-module-s3</artifactId>
-                        </inclusion>
-                    </inclusions>
+                    <deploymentType>cloudhub</deploymentType>
+                    <muleVersion>3.8.0</muleVersion>
+                    <username>anirudh2507</username>
+                    <password>Aspire@123</password>
+                    <workerType>Micro</workerType>
+                    <redeploy>true</redeploy>
+                    <environment>Production</environment>
                 </configuration>
+                <executions>
+                	<execution>
+                		<id>deploy</id>
+                		<phase>deploy</phase>
+                		<goals>
+                			<goal>deploy</goal>
+                		</goals>
+                	</execution>
+                </executions>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
